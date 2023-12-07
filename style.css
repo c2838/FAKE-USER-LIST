@@ -1,0 +1,68 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.card-img-top {
+  background-color: #D9FFFF;
+}
+
+.nav-link.active {
+  display: inline-block;
+  max-width: 140px;
+  margin: auto;
+  background-color: #A1FFA1;
+  border-radius: 10px;
+}
+
+.fa-heart .tooltiptext {
+  visibility: hidden;
+  min-width: 120px;
+  background-color: #fffacd;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 6px;
+  font-size: 8px;
+  position: absolute;
+  z-index: 1;
+}
+
+.fa-heart:hover .tooltiptext {
+  visibility: visible;
+}
+
+.fa-trash-can .tooltiptext {
+  visibility: hidden;
+  min-width: 120px;
+  background-color: #fffacd;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 6px;
+  font-size: 8px;
+  position: absolute;
+  z-index: 1;
+}
+
+.fa-trash-can:hover .tooltiptext {
+  visibility: visible;
+}
+
+.for-img .tooltiptext {
+  visibility: hidden;
+  min-width: 120px;
+  background-color: #CEFFCE;
+  color: black;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.for-img:hover .tooltiptext {
+  visibility: visible;
+}
