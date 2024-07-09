@@ -27,7 +27,7 @@ Ver 1.0.0 (now)
 ```
 git clone https://github.com/c2838/campaign-arrangement.git
 ```
-3. 啟動程式
+2. 啟動程式
 ```
 VS Code: Go live
 ```
